@@ -7,9 +7,12 @@ class BMICalculator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: InputPage(),
+      home: const InputPage(),
+      theme: ThemeData(
+        appBarTheme: const AppBarTheme(color: Colors.red),
+      ),
     );
   }
 }
@@ -26,7 +29,7 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BMI CALCULATOR'),
+        title: const Center(child: Text('BMI CALCULATOR')),
       ),
       body: const Center(
         child: Text('Body Text'),
