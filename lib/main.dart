@@ -11,7 +11,7 @@ class BMICalculator extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const InputPage(),
       theme: ThemeData(
-        appBarTheme: const AppBarTheme(color: Colors.red),
+        appBarTheme: const AppBarTheme(color: Color(0xFF0A0E21)),
       ),
     );
   }
@@ -32,7 +32,9 @@ class _InputPageState extends State<InputPage> {
         title: const Center(child: Text('BMI CALCULATOR')),
       ),
       body: const Center(
-        child: Text('Body Text'),
+        child: Text(
+          'Body Text',
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
