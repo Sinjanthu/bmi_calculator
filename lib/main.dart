@@ -45,7 +45,7 @@ class _InputPageState extends State<InputPage> {
       ),
       body: const Center(
         child: Text(
-          'Body Text Calculator',
+          'Body Text Calculator v1.0',
           // style: TextStyle(color: Colors.white),
         ),
       ),
