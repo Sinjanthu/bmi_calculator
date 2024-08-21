@@ -46,7 +46,7 @@ class _InputPageState extends State<InputPage> {
       body: const Center(
         child: Text(
           'Body Text Calculator vk16551',
-          // style: TextStyle(color: Colors.white),
+          // style: TextStyle(color: Colors.white),xxx
         ),
       ),
       floatingActionButton: FloatingActionButton(
