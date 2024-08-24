@@ -40,7 +40,8 @@ class _InputPageState extends State<InputPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Center(
-          child: Text('BMI CALCULATOR', style: TextStyle(color: Colors.white)),
+          child: Text('BMI CALCULATOR v1.0',
+              style: TextStyle(color: Colors.white)),
         ),
       ),
       body: const Center(
